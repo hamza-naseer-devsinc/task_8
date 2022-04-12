@@ -5,6 +5,26 @@
           box-sizing: border-box;
 }
 
+.event-name {
+  color: #0a2b5e;
+}
+
+.event-price {
+  color: #7e9ffb;
+}
+
+.event-date {
+  background-color: #f9f9ff;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../images/chevron-left-solid.svg) !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/chevron-right-solid.svg) !important;
+}
+
 .customers-say {
   background-image: -webkit-gradient(linear, left top, right top, from(#6a91fb), to(#cf99e6));
   background-image: linear-gradient(to right, #6a91fb, #cf99e6);

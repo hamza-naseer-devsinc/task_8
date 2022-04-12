@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.event-name {
+    color: #0a2b5e;
+}
+
+.event-price {
+    color: #7e9ffb;
+}
+
+.event-date {
+    background-color: #f9f9ff;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/chevron-left-solid.svg) !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/chevron-right-solid.svg) !important;
+}
+
 .customers-say {
     background-image: linear-gradient(to right, hsl(224, 95%, 70%), hsl(282, 60%, 75%));
     width: 100%;
