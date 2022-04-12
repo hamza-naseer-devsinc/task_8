@@ -5,6 +5,80 @@
           box-sizing: border-box;
 }
 
+.customers-say {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6a91fb), to(#cf99e6));
+  background-image: linear-gradient(to right, #6a91fb, #cf99e6);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customers-say .quote {
+  text-align: center;
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+  font-size: 1.8rem;
+  width: 54%;
+  margin-top: 1.3rem;
+}
+
+.customers-say .title {
+  text-align: center;
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-top: 5rem;
+}
+
+.customers-say .ceo-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.customers-say .ceo-info .name-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+}
+
+.customers-say .ceo-info .name-post .ceo-name {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.3rem;
+  color: #fff;
+  font-weight: bolder;
+  font-family: 'roboto', sans-serif;
+}
+
+.customers-say .ceo-info .name-post .ceo-post {
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+}
+
 .video {
   position: relative;
   width: 100%;
@@ -15,6 +89,7 @@
 }
 
 .video-title {
+  font-family: "Roboto", sans-serif !important;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -175,6 +250,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 804px) {
+  .title {
+    font-size: 1.7rem !important;
+  }
+  .quote {
+    font-size: 1rem !important;
+    width: 85% !important;
+  }
   .video-title {
     font-size: 1rem;
     top: 65%;
