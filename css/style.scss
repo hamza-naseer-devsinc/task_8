@@ -52,6 +52,46 @@
     }
 }
 
+.about-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0rem;
+    .about {
+        margin-bottom: 0;
+        color: #7e9ffb;
+    }
+    .about-img {
+        flex: 0 0 50%;
+        padding: 10rem;
+        width: 100%;
+    }
+    .about-title {
+        color: #0a2b5e;
+        font-size: 3rem;
+        font-weight: bolder;
+        padding: 0.2rem 3rem 3rem 0rem;
+    }
+    .about-info {
+        flex: 0 0 40%;
+        padding: 13rem 2rem;
+    }
+    .about-desc {
+        color: #6c7f8e;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .about-book {
+        border-style: none;
+        background-color: #ffca3d;
+        padding: 1.3rem 3rem;
+        border-radius: 6px;
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
 .video {
     position: relative;
     width: 100%;
@@ -194,6 +234,26 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 804px) {
+    .about-us {
+        justify-content: start;
+        row-gap: 2rem;
+        .about-title {
+            font-size: 1.3rem;
+            font-weight: bolder;
+            padding: 0.2rem 3rem 1rem 0rem;
+        }
+        .about-img {
+            flex: 0 0 100%;
+            padding: 0rem;
+        }
+        .about-desc {
+            font-size: 0.8rem;
+        }
+        .about-info {
+            flex: 0 0 100%;
+            padding: 0rem 0rem;
+        }
+    }
     .title {
         font-size: 1.7rem !important;
     }
@@ -225,5 +285,12 @@
     .services,
     .contact-us {
         margin: 1rem 0rem 1rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 1408px) {
+    .about-us .about-info {
+        flex: 0 0 100%;
+        padding: 0rem 2rem;
     }
 }
