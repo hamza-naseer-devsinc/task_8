@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+.navbar-toggler {
+  background-color: black !important;
+  color: #fff !important;
+}
+
 .event-name {
   color: #0a2b5e;
 }
@@ -118,6 +123,7 @@
 .about-us .about {
   margin-bottom: 0;
   color: #7e9ffb;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-us .about-img {
@@ -132,6 +138,7 @@
   color: #0a2b5e;
   font-size: 3rem;
   font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
   padding: 0.2rem 3rem 3rem 0rem;
 }
 
@@ -146,6 +153,7 @@
   color: #6c7f8e;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-us .about-book {

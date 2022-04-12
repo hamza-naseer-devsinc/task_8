@@ -17,11 +17,41 @@
 
 <body>
     <div class="container-fluid">
-        <div class="upcoming-events">
+        <nav class="navbar navbar-expand-lg navbar-light mt-4">
+            <a class="navbar-brand ml-5" href="#"><img src="./images/logo1.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu">Menu</span>
+              <i class="fa fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
+                <ul class="navbar-nav justify-content-center align-content-center">
+                    <li class="nav-item mt-2 mr-3 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mt-2 mr-3">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item mt-2 mr-3">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item mt-2 mr-3">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mt-2 mr-3">
+                        <a class="nav-link mr-5" href="#">Contact</a>
+                    </li>
+                    <li class="btn btn-warning">
+                        <a class="nav-link text-white" href="#"><span><i class="fa fa-phone pr-2"></i>+10 (67) 678 2567</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="upcoming-events d-md-none">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="card" style="width: 100%;">
+                        <div class="card">
                             <img class="card-img-top" src="./images/service1.png" alt="Card image cap">
                             <div class="card-body">
                                 <div class="row d-flex justify-content-between pt-2">
@@ -38,7 +68,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card" style="width: 100%;">
+                        <div class="card">
                             <img class="card-img-top" src="./images/service2.png" alt="Card image cap">
                             <div class="card-body">
                                 <div class="row d-flex justify-content-between pt-2">
@@ -55,7 +85,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="card" style="width: 100%;">
+                        <div class="card">
                             <img class="card-img-top" src="./images/service3.png" alt="Card image cap">
                             <div class="card-body">
                                 <div class="row d-flex justify-content-between pt-2">
@@ -71,26 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                        <div class="card" style="width: 100%;">
-                            <img class="card-img-top" src="./images/service2.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card" style="width: 100%;">
-                            <img class="card-img-top" src="./images/service3.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div> -->
+
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

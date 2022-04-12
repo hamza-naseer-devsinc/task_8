@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
+.navbar-toggler {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+// .nav-bar {
+//     display: flex !important;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-top: 3rem;
+//     margin-bottom: 3rem;
+//     .brand-logo {
+//         margin-left: 2rem;
+//     }
+//     .nav-links {
+//         display: flex !important;
+//         flex-direction: row;
+//         list-style: none;
+//         align-items: center;
+//         .nav-link {
+//             color: #0a2b5e;
+//         }
+//         .phoneno {
+//             margin-right: 3rem;
+//             padding: 1rem 1.5rem;
+//             background-color: #ffca3d;
+//             border-radius: 6px;
+//             color: #fff;
+//         }
+//     }
+// }
 .event-name {
     color: #0a2b5e;
 }
@@ -81,6 +112,7 @@
     .about {
         margin-bottom: 0;
         color: #7e9ffb;
+        font-family: 'Roboto', sans-serif;
     }
     .about-img {
         flex: 0 0 50%;
@@ -91,6 +123,7 @@
         color: #0a2b5e;
         font-size: 3rem;
         font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
         padding: 0.2rem 3rem 3rem 0rem;
     }
     .about-info {
@@ -101,6 +134,7 @@
         color: #6c7f8e;
         font-size: 1.5rem;
         margin-bottom: 2rem;
+        font-family: 'Roboto', sans-serif;
     }
     .about-book {
         border-style: none;
