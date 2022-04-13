@@ -48,8 +48,22 @@
   width: 100%;
 }
 
+.events-text-pro {
+  color: #7e9ffb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.events-text-upcoming {
+  color: #7e9ffb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+  font-weight: 700;
+}
+
 .event-name {
   color: #0a2b5e;
+  font-family: 'Roboto', sans-serif;
 }
 
 .event-price {
