@@ -17,15 +17,15 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light mt-4">
-            <a class="navbar-brand ml-5" href="#"><img src="./images/logo1.png" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg mt-4">
+            <a class="navbar-brand" href="#"><img src="./images/logo1.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="menu">Menu</span>
               <i class="fa fa-bars text-white"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNav">
                 <ul class="navbar-nav justify-content-center align-content-center">
-                    <li class="nav-item mt-2 mr-3 active">
+                    <li class="nav-item mt-2 mr-3">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mt-2 mr-3">
@@ -47,7 +47,17 @@
                 </ul>
             </div>
         </nav>
-        <div class="upcoming-events d-md-none">
+        <div class="moto d-flex flex-column align-items-center mt-5">
+            <p class="moto-title">Lifelong memories just a</p>
+            <p class="moto-title"> few seconds away</p>
+            <p class="moto-desc">Let's start your journey with us, your dream will come true.</p>
+            <button class="btn btn-dark p-3 mt-3 moto-btn">Explore Destinations</button>
+        </div>
+
+        <div class="car row mt-5 mx-auto">
+            <img src="./images/car.png" class="mx-auto mt-5 car-img" alt="car">
+        </div>
+        <div class="upcoming-events mt-4 mb-4 d-md-none">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">

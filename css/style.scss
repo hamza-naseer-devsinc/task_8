@@ -4,9 +4,31 @@
     box-sizing: border-box;
 }
 
+.nav-link {
+    color: #0a2b5e !important;
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar-toggler {
     background-color: black !important;
     color: #fff !important;
+}
+
+.moto-title {
+    color: #0a2b5e !important;
+    font-weight: bolder !important;
+    font-size: 3.5vw;
+    // padding: 0rem 38rem;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.moto-desc {
+    font-size: 1rem !important;
+}
+
+.moto-btn {
+    background-image: linear-gradient(to bottom, #2a579a, #062047);
 }
 
 // .nav-bar {
@@ -35,6 +57,13 @@
 //         }
 //     }
 // }
+.car {
+    width: 60%;
+    .car-img {
+        width: 100%;
+    }
+}
+
 .event-name {
     color: #0a2b5e;
 }
@@ -161,7 +190,7 @@
     transform: translate(-50%, -60%);
     margin: auto;
     color: #fff;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .video-play-icon {
