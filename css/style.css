@@ -18,18 +18,26 @@
 .moto-title {
   color: #0a2b5e !important;
   font-weight: bolder !important;
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   text-align: center;
   line-height: 1.3;
 }
 
 .moto-desc {
-  font-size: 1rem !important;
+  font-size: 2vw !important;
 }
 
 .moto-btn {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#2a579a), to(#062047));
   background-image: linear-gradient(to bottom, #2a579a, #062047);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-thickness: 2vh;
+  -webkit-text-decoration-color: #ffca3d;
+          text-decoration-color: #ffca3d;
+  text-underline-offset: -0.1rem;
 }
 
 .car {
